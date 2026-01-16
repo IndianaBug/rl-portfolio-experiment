@@ -1,3 +1,22 @@
+## Key Takeaways
+
+This repository reflects an early-stage, algorithm-focused approach to financial markets. In practice, the most important part of any trading system is **data**, not the algorithms themselves.
+
+How data is **collected, cleaned, labeled, structured, and validated** has a far greater impact than model choice. Poor data will break even the most sophisticated algorithms, while well-structured data often allows simple models to perform surprisingly well.
+
+In real-world financial ML:
+- Data leakage is a bigger risk than underfitting
+- Feature construction dominates model selection
+- Labeling, sampling, and validation are critical
+- Financial data is noisy and non-stationary, making overfitting easy
+- Simpler models (boosting, bagging, linear or small neural networks) often generalize better than complex architectures
+- Precision is less important than robustness
+
+Algorithms are replaceable. Bad data is not.
+
+
+
+
 # Portfolio Analysis: Backtesting, LSTM Supervised Learning, and DQN Reinforcement Learning Strategies for Coca Cola Stocks
 
 ## Table of Contents
